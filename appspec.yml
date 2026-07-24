@@ -1,0 +1,8 @@
+Resources:
+  TargetService:
+    Type: AWS::ECS::Service
+    Properties:
+      TaskDefinition: "${NEW_TASK_DEF_ARN}"
+      LoadBalancers:
+        - ContainerName: "my-node-app"
+          ContainerPort: 3000

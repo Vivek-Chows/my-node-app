@@ -1,22 +1,21 @@
 {
   "name": "my-node-app",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "jest --runInBand",
-    "test:coverage": "jest --coverage --runInBand"
-  },
+  "start": "node app.js",
+  "test": "jest --runInBand",
+  "test:coverage": "jest --coverage --runInBand"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "jest": "^29.6.4",
+    "jest": "^30.4.2",
     "supertest": "^7.2.2"
-  },
-  "type": "commonjs"
+  }
 }

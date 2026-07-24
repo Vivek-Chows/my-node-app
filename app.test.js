@@ -34,5 +34,3 @@ describe('API Tests', () => {
         expect(response.body.error).toBe('Name and email are required');
     });
 });
-
-

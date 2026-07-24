@@ -13,7 +13,7 @@ app.get("/health", (req, res) => {
 // Home endpoint
 app.get("/", (req, res) => {
   res.json({
-    message: "Siva teja and vivek are working on CI/CD Pipeline",
+    message: "CI/CD Pipeline is currently in process",
     version: process.env.APP_VERSION || "1.0.0",
     environment: process.env.NODE_ENV || "development",
   });
